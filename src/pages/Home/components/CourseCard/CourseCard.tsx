@@ -17,7 +17,7 @@ const CourseCard: FC<Props> = props => {
       <Image src={src} alt={`${title} icon`} width={56} pos="relative" bottom={40} />
       <Stack align="flex-start">
         <Text fz={{ base: 20, xl: 24 }} fw={800} c="deadlyDepths">
-          {title}|
+          {title}
         </Text>
         <Text c="topShelf">{description}</Text>
         <Anchor
