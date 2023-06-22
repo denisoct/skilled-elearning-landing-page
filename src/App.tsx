@@ -11,6 +11,7 @@ const GlobalStyles = () => {
           "@font-face": {
             fontFamily: "Plus Jakarta Sans",
             src: `url("${plusjakartasans}") format("truetype")`,
+            fontWeight: 400,
           },
         },
       ]}
